@@ -1,14 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PostComponent } from './components/posts/post/post.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
   { 
     path: 'home', 
     loadChildren: () => import('./components/pages/home/home.module').then(m => m.HomeModule) 
   },
   { 
-    path: 'posts', 
-    loadChildren: () => import('./components/posts/list-posts/list-posts.module').then(m => m.ListPostsModule) 
+    path: 'post/:id',
+    component: PostComponent
   }
 ];
 
