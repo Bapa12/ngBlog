@@ -1,0 +1,37 @@
+mat-card {
+  background-color: #fff;
+  color: #000;
+  width: 80%;
+  margin: 1% auto;
+  padding: 2%;
+
+  mat-card-title {
+    font-family: "Comic Neue", cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 80%;
+    border-radius: 6px;
+  }
+
+  .align-center {
+    text-align: center;
+    clear: both;
+    display: block;
+    margin: 6px auto;
+  }
+
+  mat-card-content {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1rem;
+
+    p.content {
+      text-align: initial;
+    }
+  }
+}
