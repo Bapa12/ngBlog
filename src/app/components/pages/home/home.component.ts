@@ -22,7 +22,7 @@ export class HomeComponent {
       id: "2",
       titlePost: "Post Two",
       contentPost: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      imagePost: "https://visithanshin.jp/wp-content/uploads/2021/03/sandasakura-200x300.jpg"
+      imagePost: "https://i.pinimg.com/200x/a8/0e/72/a80e7242fccf14c1fe90caea9f70fed3.jpg"
     },
     {
       id: "3",
