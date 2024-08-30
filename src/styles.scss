@@ -10,3 +10,12 @@ body {
   font-family: "Comic Neue", cursive;
   font-weight: 400;
 }
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.active {
+  border: 2px groove #694F8E;
+  border-radius: 15px;
+}
