@@ -1,0 +1,42 @@
+.container {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  justify-content: center;
+
+  mat-card-header {
+    display: flex;
+    padding: 14px 16px 0px;
+    margin-top: -12px;
+  }
+
+  a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+  }
+
+  .post-card {
+    background: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 120%;
+
+    img {
+      height: 300px;
+      border-radius: 5px;
+    }
+    
+    p.content {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

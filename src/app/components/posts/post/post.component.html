@@ -1,0 +1,16 @@
+<div class="container">
+  <mat-card class="post-card">
+    <mat-card-header>
+      <mat-card-title class="post-title">
+          {{ post.titlePost }}
+      </mat-card-title>
+    </mat-card-header>
+    <img class="align-center" matCardImage [src]="post.imagePost">
+    <mat-card-content>
+      <p class="content">
+        {{ post.contentPost }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
+
