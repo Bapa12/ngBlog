@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment';
 
@@ -23,7 +22,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AppComponent,
     NewPostComponent,
     PostComponent,
-    ToolbarComponent
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,9 +33,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
   ],
-  providers: [
-    provideAnimationsAsync(),
-  ],
-  bootstrap: [AppComponent]
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
